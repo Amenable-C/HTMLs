@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    #Layout{
+      background-image: url('MainPicture.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      /* background-repeat: repeat-x;
+      background-size: cover; */
+    }
+    header{
+      height: 75px; background-color: powderblue; border: 1px solid gray; position: fixed; width: 100%; z-index: 9999; top: 0; left: 0;
+    }
+    h1{
+      color: white: line-height: 75px; float: left;
+    }
+    .menu{
+      float: right;
+    }
+    .menu li{
+      float: left;
+    }
+    .menu a{
+      line-height: 75px; color: black; padding: 0 15px;
+    }
+    .menu {
+      list-style: none;
+    }
+
+    img{
+      width: 300px;
+      height: 150px;
+      object-fit: cover;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="Top Bar">
+        <h1>IMPOSSIBLE</h1>
+        <nav>
+          <ul class="menu">
+            <li><a href="#">FIND</a></li>
+            <li><a href="#">BUY</a></li>
+            <li><a href="#">COOK</a></li>
+            <li><a href="#">SELL</a></li>
+            <li><a href="#">LEARN</a></li>
+            <li><a href="#">SIGN UP | LOG IN</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+<!-- First page -->
+    <div id="Layout">
+      <img src="MainPicture.jpg" alt="Impossible Burger">
+        <div class="container">
+          <p>Save the Earth</p>
+          <li><a href="#">BUY NOW</a></li>
+          <li><a href="#">FIND NEAR ME</a></li>
+        </div>
+    </div>
+
+<!-- Second page -->
+    <div class="Doomsday clock">
+      <!-- 23:58 이거 찾아야 함 -->
+      <img src="Doomsday clock.jpg" alt="Doomsday Clock">
+      <p>
+        DOOMSDAY IS COMING
+      </p>
+    </div>
+
+<!-- Third page -->
+    <div class="Ingredients">
+      <img src="Ingredients.jpg" alt="Ingredients">
+      <p>
+        PATTIES ARE HERE
+      </p>
+    </div>
+
+<!-- Last page -->
+    <div class="Scientists opinion">
+      <img src="Earth.jpg" alt="Earth in danger">
+      <p>
+        SAVE OUR PLANET
+      </p>
+    </div>
+
+  </body>
+</html>
